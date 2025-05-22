@@ -16,6 +16,6 @@ public class Mensajes : MonoBehaviour
 
     public void Mensaje3(string nombre)
     {
-        print("Hola" + nombre + ",¿como estas?");
+        print("Hola, " + nombre + ", ¿como estas?");
     }
 }
