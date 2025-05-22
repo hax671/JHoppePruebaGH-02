@@ -1,12 +1,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class InputEventHandler : MonoBehaviour
+public class InputEventHandler1 : MonoBehaviour
 {
-    public string sceneToLoad = "Escena";
+    public string sceneToLoad = "NombreDeTuEscena";
 
     public void OnChangeScene()
     {
         SceneManager.LoadScene(sceneToLoad);
     }
 }
+
